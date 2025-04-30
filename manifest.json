@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "AtCoder Dropdownmenu",
+  "version": "1.0",
+  "description": "Add a dropdownmenu to problemtab",
+  "content_scripts": [
+    {
+      "matches": ["*://atcoder.jp/contests/*"],
+      "js": ["scripts/dropdown.js"]
+    }
+  ]
+}
